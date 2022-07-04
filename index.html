@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/iconos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Heredia Nicolás Agustin</title>
+</head>
+<body>
+    <header id="header" class="bg-black">
+        <nav id="navbar-responsive">
+           <span>Heredia Nicolas</span>
+           <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-list hamburger-boton"></i></button>
+            <div class="offcanvas offcanvas-top h-50 w-100 bg-black" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header d-flex justify-content-end">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-center contenedor-iconos-navbar">
+                 <li><a href="#inicio">Inicio</a></li>
+                 <li><a href="#sobre-mi">Sobre mi</a></li>
+                 <li><a href="#conocimientos">Conocimientos</a></li>
+                 <li><a href="#formacion">Formacion</a></li>
+                 <li><a href="#proyectos">Proyectos</a></li>
+                 <li><a href="#contacto">Contacto</a></li>
+                </div>
+            </div>
+        </nav>
+        <nav id="navbar-escritorio">
+            <span>Heredia Nicolas</span>
+            <div>
+                <ul class="contenedor-links d-flex">
+                    <li><a href="#sobre-mi">Sobre mi</a></li>
+                    <li><a href="#conocimientos">Conocimientos</a></li>
+                    <li><a href="#formacion">Formacion</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <div class="inicio-contenedor-titulos d-flex flex-column">
+                <h1 class="tituloPrincipal">Hola! Soy Nico</h1>
+                <span class="tituloSecundario">Desarrollador Front-End React</span>
+                <div class="inicioIconos">
+                    <a href="https://github.com/NicHeredia" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/heredianico/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi">
+            <h2 class="titulo-section">Sobre mi</h2>
+            <div class="sobre-mi__contenedor">
+                <img src="imagenes/Foto perfil.jpg" class="imagen-perfil" alt="">
+                <p class="sobre-mi__descripcion">
+                    Estudiante Autodidacta. Cuento con gran capacidad parala resolucion de problemas, gran capacidad de trabajo, integracion, flexibilidad y dinamismo.
+                    Busco desarrollarme profesionalmente en el rubro del desarrollo de software,trabajando en equipo y en colaboracion con los objetivos de la empresa.
+                    Soy una persona puntual, predispuesta, y sociable, que gestiona bien su tiempo para alcanzar lo que me propongo de la manera mas eficiente</p>
+            </div>
+            <div class="text-center boton-curriculum">
+                <a href="imagenes/Heredia Nicolás.pdf" target="_blank" class="text-decoration-none boton">Mi curriculum</a>
+            </div>
+        </section>
+
+        <section id="conocimientos">
+            <h2 class="titulo-section text-white">Conocimientos</h2>
+            <div class="conocimientos-contenedor">
+                <div class="tarjeta">
+                    <span class="icon-html5 icon"></span>
+                    <span class="icono-texto">HTML</span>
+                </div>
+                <div class="tarjeta">
+                    <span class="icon-css3 icon"></span>
+                    <span class="icono-texto">CSS</span>
+                </div>
+                <div class="tarjeta">
+                    <span class="icon-javascript icon"></span>
+                    <span class="icono-texto">Java Script</span>
+                </div>
+                <div class="tarjeta">
+                    <span class="icon-bootstrap icon"></span>
+                    <span class="icono-texto">Bootstrap</span>
+                    
+                </div>
+                <div class="tarjeta">
+                    <span class="icon-react icon"></span>
+                    <span class="icono-texto">React</span>
+                </div>
+                <div class="tarjeta">
+                    <span class="icon-node-dot-js icon"></span>
+                    <span class="icono-texto">Node JS</span>
+                </div>
+                <div class="tarjeta">
+                    <span class="icon-git icon"></span>
+                    <span class="icono-texto">GIT</span>
+                </div>
+                <div class="tarjeta">
+                    <span class="icon-github icon"></span>
+                    <span class="icono-texto">GitHub</span>
+                </div>
+            </div> 
+        </section>
+
+        <section id="formacion">
+            <h2 class="titulo-section">Formacion Academica</h2>
+            <div class="contenedor-cursos">
+                
+                <div class="tarjeta-curso text-center">
+                    <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/dibk1ba07iflqhldupuz" class="curso-logo">
+                    <div class="curso-descripccion">
+                        
+                        <p class="fw-bold">Desarrollador Front-End</p>
+                        <p>2022 - Alura Latam</p>
+                    </div>
+                </div>
+                
+                <div class="tarjeta-curso text-center">
+                    <img src="imagenes/Digitalers logo.png" class="curso-logo">
+                    <div class="curso-descripccion">
+                        <p class="fw-bold">Desarrollador Front-End React</p>
+                        <p>2022 - Digit@lers - Telecom</p>
+                    </div>
+                </div>
+                <div class="tarjeta-curso text-center">
+                    <img src="imagenes/arg-programa.png" class="curso-logo">
+                    <div class="curso-descripccion">
+                        <p class="fw-bold">Full stack developer Jr</p>
+                        <p>2022 - Arg Programa</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2 class="titulo-section text-white">Proyectos</h2>
+            <div class="contenedor-proyectos">
+                <div class="card-proyecto">
+                    <div class="contenedor-imagenProyecto">
+                        <img src="imagenes/captura encriptador.png" class="captura-proyecto" alt="">
+                    </div>
+                    <div class="proyecto-descripcion text-center">
+                        <p class="fw-bold">Encriptador de Texto</p>
+                        <p>Challenge N°1 Oracle Alura</p>
+                        <div class="contenedor-botones">
+                            <a href="https://github.com/NicHeredia/Challenge-Oracle-01-NicHeredia" target="_blank" class="text-decoration-none boton">Repositorio</a>
+                            <a href="https://nicheredia.github.io/Challenge-Oracle-01-NicHeredia/" target="_blank" class="text-decoration-none boton">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-proyecto rowReverse">
+                    <div class="contenedor-imagenProyecto">
+                        <img src="imagenes/captura juegoAhorcado.png" class="captura-proyecto" alt="">
+                    </div>
+                    <div class="proyecto-descripcion text-center">
+                        <p class="fw-bold">Juego de adivinar la palabra</p>
+                        <p>Challenge N°2 Oracle Alura</p>
+                        <p>(Falta Terminar)</p>
+                        <div class="contenedor-botones">
+                            <a href="https://github.com/NicHeredia/Challenge-2---Ahorcado" target="_blank" class="text-decoration-none boton">Repositorio</a>
+                            <a href="https://nicheredia.github.io/Challenge-2---Ahorcado/" target="_blank" class="text-decoration-none boton">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2 class="titulo-section">Contacto</h2>
+            <div class="contacto-descripcion text-center m-4">
+                <p>¿Quieres contactarme?</p>
+                <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+            </div>
+            <div class="contenedor-contacto">
+                <div class="contenedor-inputs">
+                    <form action="https://formsubmit.co/2817148b6fcc85d49c4c1a5a8c54ca90" method="post">
+                        <div class="group">
+                            <input required="" type="text" class="input" name="nombre">
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Nombre</label>
+                      </div>
+                      <div class="group">
+                        <input required="" type="email" class="input" name="email">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Email</label>
+                      </div>
+                      <div class="group">
+                        <input required="" type="text" class="input" name="asunto">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Asunto</label>
+                    </div>
+                      <textarea name="mensaje" id="mensaje" rows="1" placeholder="Escriba aqui su mensaje"></textarea>
+                      <div class="contenedor-boton-contacto">
+                          <button class="boton" type="submit">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer" class="bg-black w-100 position-relative bottom-0">
+            <div class="footer-descripcion text-center text-white p-5">
+                <h5>Desarrollado por Heredia Nicolas</h5>
+                <p>2022</p>
+            </div>
+        </footer>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a class="flecha" href="#inicio"><i class="bi bi-arrow-up-circle-fill flechaIcono"></i></a>
+    </main>
+
+
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
