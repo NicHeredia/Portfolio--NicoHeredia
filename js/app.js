@@ -6,7 +6,7 @@ const sr = ScrollReveal({
      //reset: true
 });
 
-sr.reveal(".inicio-contenedor-titulos, .sobre-mi__contenedor, .boton-curriculum, .conocimientos-contenedor, .contenedor-cursos, .card-proyecto, .contenedor-contacto, .contacto-descripcion, .footer-descripcion", {delay: 400});
+sr.reveal(".inicio-contenedor-titulos, .sobre-mi__contenedor, .boton-curriculum, .conocimientos-contenedor, tarjeta-curso, .card-proyecto, .contenedor-contacto, .contacto-descripcion, .footer-descripcion", {delay: 400});
 
 sr.reveal(".titulo-section");
 
