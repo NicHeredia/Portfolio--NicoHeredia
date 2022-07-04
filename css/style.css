@@ -1,5 +1,4 @@
 /* ----FONTS---- */
-@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
@@ -15,8 +14,6 @@
     }
 
 body{
-    /* font-family: 'Asap', sans-serif; */
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Roboto Serif', serif;
 }
 
@@ -308,9 +305,6 @@ body{
     margin: 30px auto;
 }
 
-
-
-
 /* DISEÑO DE LOS INPUTS */
 
 /* From uiverse.io by @G4b413l */
@@ -422,14 +416,6 @@ label {
     display: flex;
     justify-content: center;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -576,23 +562,9 @@ label {
    .contenedor-botones{
     flex-direction: row;
 }
-
-/* ----CONTACTO---- */
-
-
     
 
-
-
-
-
-
-
-
-
-
-
-
+    /* FLECHA INICIO */
 
     .flecha{
         display: block;
